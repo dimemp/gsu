@@ -63,6 +63,9 @@
 .fa-font-awesome:before {
   content: "\f2b4";
 }
+.fa-long-arrow-right:before {
+  content: "\f178";
+}
 .sr-only {
   position: absolute;
   width: 1px;
