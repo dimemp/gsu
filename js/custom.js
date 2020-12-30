@@ -45,7 +45,7 @@ $( document ).ready(function() {
 	    	{
 		      	breakpoint: 400,
 		      	settings: {
-			        slidesToShow: 2,
+			        slidesToShow: 3,
 			        slidesToScroll: 1
 		      	}
 	    	}
@@ -86,7 +86,7 @@ $( document ).ready(function() {
 	    	{
 		      	breakpoint: 400,
 		      	settings: {
-			        slidesToShow: 2,
+			        slidesToShow: 3,
 			        slidesToScroll: 1
 		      	}
 	    	}

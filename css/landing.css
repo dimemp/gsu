@@ -53,10 +53,6 @@
 
 /*--- Funding opportunities section ---*/
 
-#section-funding {
-
-}
-
 .table-text {
     padding-left: 0!important;
     font-family: 'Raleway', sans-serif;
@@ -94,6 +90,14 @@ hr {
 
     .speakers-wrapper {
         padding-right: 15px;
+    }
+
+    .card-title {
+        font-size: 0.9rem;
+    }
+
+    .card-text {
+        font-size: 0.8rem;
     }
 
 }

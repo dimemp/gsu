@@ -1,7 +1,7 @@
 /*--- General CSS ---*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,800');
-@import url('fonts/font-awesome.min.css');
+@import url('fonts/font-awesome.css');
 
 body {
     background-color: #031383;
@@ -90,6 +90,14 @@ a:active {
 .background-standing {
     background-color: #FFC482;
     padding: 4rem;
+}
+
+@media (max-width: 768px) {
+
+    .background-standing {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
 }
 
 .subtitle-blue {
