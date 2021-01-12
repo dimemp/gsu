@@ -141,6 +141,15 @@ a:active {
     border-radius: 5px;
 }
 
+.slick-track {
+    margin-left: unset;
+    margin-right: unset;
+}
+
+.w-90 {
+    width: 90%!important;
+}
+
 /* Card speakers */
 
 .card-speaker {
