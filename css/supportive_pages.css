@@ -36,3 +36,27 @@
 .speaker-position {
     font-size: 0.8rem;
 }
+
+@media (max-width: 768px) {
+
+    .speaker-name {
+        font-size: 0.9rem;
+    }
+
+    .speaker-position {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .speaker-name {
+        font-size: 0.78rem;
+    }
+
+    .speaker-position {
+        font-size: 0.5rem;
+    }
+
+}

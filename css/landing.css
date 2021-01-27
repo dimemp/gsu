@@ -102,6 +102,18 @@ hr {
 
 }
 
+@media (max-width: 576px) {
+
+    .card-title {
+        font-size: 0.7rem;
+    }
+
+    .card-text {
+        font-size: 0.5rem;
+    }
+
+}
+
 /*--- Experts sections ---*/
 
 #section-experts {
