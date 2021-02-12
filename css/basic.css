@@ -372,3 +372,48 @@ a:active {
     }
 
 }
+
+/* Privacy consent */
+
+#consent-popup {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #fff;
+    transition: opacity 1s ease;
+    opacity: 1;
+    color: #212021;
+}
+
+.hidden {
+    opacity: 0!important;
+}
+
+.toast-header {
+    color: inherit;
+    border-bottom: none;
+}
+
+.btn-success {
+    background-color: rgb(0, 205, 106);
+    border-color: rgb(0, 205, 106);
+}
+
+.close {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 0.5;
+}
+
+.close:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+
+    .toast {
+        flex-basis: 270px;
+        max-width: 270px;
+    }
+
+}
